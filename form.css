@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f3;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.5rem;
+    height: 100vh;
+}
+
+.container{
+    height: 625px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 45px 15px 15px 15px;
+    margin: 27px 30px 30px;
+    background-color: #ecf0f3;
+    box-shadow: 10px 10px 24px rgba(166,180,200, 0.7),
+                -10px -10px 24px #fff;
+}
+
+form{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 24px rgba(166,180,200, 0.7), 
+                -10px -10px 24px #fff;
+}
+
+h2{
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px
+}
+
+p{
+    font-weight: 300;
+    font-size: 16px;
+    margin: 9.6px  0px;
+}
+
+input {
+    width: 100%;
+    height: 32px;
+    padding: 20.8px;
+    margin: 8.5px 0px;
+    border: none;
+    border-radius: 30px;
+    background-color:#ecf0f3;
+    box-shadow:  5px 5px 10px rgba(166,180,200, 0.7), 
+                 -5px -5px 11px  #fff;
+}
+
+input:hover{
+    box-shadow: inset 5px 5px 10px rgba(166,180,200, 0.7), 
+                inset -5px -5px 11px  #fff;
+}
+
+textarea{
+    width: 100%;
+    height: 144px;
+    padding: 16px;
+    margin: 8.5px 0px;
+    border: none;
+    border-radius: 30px;
+    background-color:#ecf0f3;
+    box-shadow:  5px 5px 10px rgba(166,180,200, 0.7), 
+                 -5px -5px 11px  #fff;
+    resize:none;
+}
+
+textarea:hover{
+    box-shadow: inset 5px 5px 10px rgba(166,180,200, 0.7), 
+                inset -5px -5px 11px  #fff; 
+}
+
+button{
+    background-color: #6b92e5;
+    padding: 15px 25px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 24px rgba(166,180,200, 0.8), 
+                -10px -10px 24px #fff;
+}
+button:hover{
+    background-color: #6780b6;
+    cursor: pointer;
+}
